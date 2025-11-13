@@ -1,4 +1,4 @@
-ex:1
+ex:1 git essential - commit
 git init 
 git add .
 git commit -m "initial commit"
@@ -15,7 +15,7 @@ git push origin feature-branch
 
 
 
-exp2 
+exp2  docker container and image 
 Exp 2 :
 mkdir docker
 cd docker
@@ -36,7 +36,7 @@ docker run -d -p 9090:80 myweb:v1
 
 
 
-EXP 3:
+EXP 3: flask app contain and dockerhub
 flask-docker-app/
 ├── app.py
 ├── requirements.txt
@@ -74,7 +74,7 @@ docker build -t flask-docker-app .
 docker run -p 5000:5000 flask-docker-app
 
 
-EXP 4:
+EXP 4: ci pipeline 
 mkdir jenkins-static-site  
 cd jenkins-static-site
 
@@ -109,7 +109,13 @@ if any error came u can do this
 docker compose down
 >> docker compose up -d
 
-ex: 5 
+
+
+
+
+
+ex: 5 jenkins
+
 This lab teaches, how to use Jenkins running in Docker to generate and publish a simple static website
 (Karunya University example) using a pipeline. Learn how to:
 Run Jenkins with Docker Compose.
@@ -253,7 +259,11 @@ You should see the static site rendered inside Jenkins.
 Alternatively, download the archived artifact (the site/ folder) and open index.html locally.
 
 
-ex 6:
+
+
+
+
+ex 6:kubernetes resource using cli
 
     Prerequisites
 ● Laptop/desktop with at least 4 GB RAM and internet access.
@@ -394,7 +404,9 @@ In this lab, you learned how to:
 
 
 
-ex 7: 
+
+
+ex 7: kubernet deployment and service for the python app from the docker hub
  
 
  Prerequisites
